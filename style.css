@@ -36,6 +36,11 @@ ul{
     color: #F9FAF8;
     display: flex;
 }
+.content-right{
+    width: 900px;
+    margin-right: 200px;
+    padding: 50px;
+}
 h1{
     font-size: 48px;
     font-weight: bolder;
@@ -50,13 +55,42 @@ h1{
     background-color: rgb(61, 105, 228);
     font-family: 'Roboto';
     color: white;
+    font-weight: bold;
     border: none;
     border-radius: 4px;
     padding: 6px;
     margin-top: 10px;
-    
 }
 .first-section-picture{
     display: flex;
     width: 100%;
+}
+.second-section-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.blue-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 80px;
+}
+.box{
+    border: 2px solid rgb(61, 105, 228);
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    
+}
+.p-second{
+    margin-top: 6px;
 }
