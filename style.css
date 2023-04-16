@@ -52,7 +52,7 @@ h1{
 }
 .first-section-sign-up{
     width: 30%;
-    background-color: rgb(61, 105, 228);
+    background-color: #3882f6;
     font-family: 'Roboto';
     color: white;
     font-weight: bold;
@@ -93,4 +93,66 @@ h1{
 }
 .p-second{
     margin-top: 6px;
+}
+.third-section{
+    background-color: #e5e7eb;
+    height: 500px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third-quote{
+    font-style: italic;
+    font-size: 36px;
+}
+.third-name{
+    display: flex;
+    justify-content: flex-end;
+}
+.container{
+    background-color: #F9FAF8;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blue-container{
+    background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    color: #F9FAF8;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.blue-title{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.right{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.blue-sign-up{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
 }
